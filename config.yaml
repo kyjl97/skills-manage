@@ -1,0 +1,25 @@
+masterDir: C:\Users\Administrator\AISkills
+language: zh
+git:
+  enabled: true
+  remote: https://github.com/kyjl97/skills-manage
+  autoPush: true
+watch:
+  enabled: false
+  debounceMs: 3000
+apps:
+  - name: Claude Code
+    skillsPath: C:\Users\Administrator\.claude\skills
+    enabled: true
+  - name: WorkBuddy
+    skillsPath: C:\Users\Administrator\WorkBuddy\Claw\.workbuddy\skills
+    enabled: true
+  - name: Craft Agents
+    skillsPath: C:\Users\Administrator\.craft-agent\workspaces\my-workspace\skills
+    enabled: true
+  - name: Qwen Code
+    skillsPath: C:\Users\Administrator\.qwen\skills
+    enabled: true
+  - name: Zed (OpenCode)
+    skillsPath: C:\Users\Administrator\.config\opencode\skills
+    enabled: true
